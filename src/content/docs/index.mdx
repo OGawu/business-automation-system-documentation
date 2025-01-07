@@ -1,0 +1,47 @@
+---
+title: TSCZ System Documentation.
+description: Automate your Business Processes.
+template: splash
+hero:
+  tagline: Automate your Business Processes.
+  image:
+    file: ../../assets/Logo/tscz1_logo.png
+  actions:
+    - text: Getting started
+      link: /gettingstarted/welcome-page/
+      icon: right-arrow
+      variant: primary
+    - text: TSCZ platform
+      link: https://manera.trafficsafety.co.zw:8091/authentication/login
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from "@astrojs/starlight/components";
+
+<CardGrid stagger>
+    <Card title="Introduction" icon="open-book">
+        This TSCZ intranet guide offers users
+        detailed guidance on the stages incurred when user has
+        done a requisition (fuel request,
+        vehicle request, trip advance request, salary advance etc)
+    </Card>
+    <Card title="Popular Searches" icon="laptop">
+        - [Welcome Page](../gettingstarted/welcome-page/)  <br />
+        - [Log In](../gettingstarted/log-in)  <br />
+        - [Requisitions](../requisitions/requisitions)  <br />
+        - [Request Types](../requests/request-types/)  <br />
+        - [Directorship](../directorship/directorship/)  <br />
+        - [Alternate Approver](../alternateapprover/alternate-approver/)  <br />
+    </Card>
+
+    <Card title="System Developers" icon="document">
+        Check the developers website [Axis Solutions](https://www.axissol.com/).
+    </Card>
+</CardGrid>
+
+<footer>
+    <center>
+        <image src="../static/axis.jpg" width="200rem" height="40" />
+    </center>
+</footer>

@@ -1,0 +1,28 @@
+:root,
+::backdrop {
+    --sl-color-accent-low: hsl(241, 75%, 27%);
+    --sl-color-accent: hsl(231, 74%, 31%);
+    --sl-color-accent-high: hsl(224, 75%, 27%);
+   
+}
+/* ::backdrop {
+    --sl-color-accent-low: hsl(0, 55%, 20%);
+    --sl-color-accent: hsl(0, 100%, 44%);
+    --sl-color-accent-high: hsl(0, 93%, 66%);
+   
+} */
+
+
+/* :root[data-theme=light],
+[data-theme=light] ::backdrop {
+    --sl-color-accent-high: hsl(0, 91%, 17%);
+    --sl-color-accent: hsl(0, 100%, 44%);
+    --sl-color-accent-low: hsl(0, 93%, 66%);
+} */
+
+:root[data-theme=light],
+[data-theme=light] ::backdrop {
+    --sl-color-accent-high: hsl(258, 83%, 23%);
+    --sl-color-accent: hsl(241, 87%, 21%);
+    --sl-color-accent-low: hsl(258, 84%, 17%);
+}
