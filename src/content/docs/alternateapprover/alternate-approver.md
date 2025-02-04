@@ -44,7 +44,7 @@ When user shoots for a vehicle, they will then be required to fill in the detail
 ![Vehicle Request G](../../../assets/alternates/success.png)
 
 Trip expenses are already set in accord to the standards the organisation operates by. However, if user want to add any other expenses that are not set, they simply click the plus sign to add additional expenses.
-After completing this sheet, user clicks save and will have their request shown under personal requests with a pendiing status.
+After completing this sheet, user clicks save and will have their request shown under personal requests with a pending status.
 
 ![Vehicle Request G](../../../assets/alternates/view.png)
 
